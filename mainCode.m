@@ -16,11 +16,12 @@ kcorrected=linspace(X(1), X(end-1), 2000);
 
 %Case 1
 Y=[40.33333333, 57.46666667, 54.33333333, 59.46666667, 54.58333333, 59.33333333, 56.69333333]; %Professor
-title="teacher speaking corrected";
 
+title="teacher speaking";
 corrected=false;
 distributeData(Y,corrected,X,dt,Tcorrected,T,k,kcorrected,title)
 
+title="teacher speaking corrected";
 corrected=true;
 distributeData(Y,corrected,X,dt,Tcorrected,T,k,kcorrected,title)
 
@@ -34,6 +35,7 @@ title="last row speaking";
 corrected=false;
 distributeData(Y,corrected,X,dt,Tcorrected,T,k,kcorrected,title)
 
+title="last row speaking - corrected";
 corrected=true;
 distributeData(Y,corrected,X,dt,Tcorrected,T,k,kcorrected,title)
 
@@ -46,6 +48,7 @@ title="first row speaking";
 corrected=false;
 distributeData(Y,corrected,X,dt,Tcorrected,T,k,kcorrected,title)
 
+title="first row speaking - corrected";
 corrected=true;
 distributeData(Y,corrected,X,dt,Tcorrected,T,k,kcorrected,title)
 
@@ -58,5 +61,6 @@ title="everyone speaking";
 corrected=false;
 distributeData(Y,corrected,X,dt,Tcorrected,T,k,kcorrected,title)
 
+title="everyone speaking - corrected";
 corrected=true;
 distributeData(Y,corrected,X,dt,Tcorrected,T,k,kcorrected,title)
